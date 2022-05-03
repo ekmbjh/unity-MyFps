@@ -96,6 +96,9 @@
     <Compile Include="Assets\Scripts\Interaction\Interaction.cs" />
     <Compile Include="Assets\Scripts\Sequence\BFirstTrigger.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Interaction\PicktUpRightEye.cs" />
+    <Compile Include="Assets\Scripts\FullEyeExit.cs" />
+    <Compile Include="Assets\Scripts\Sequence\HiddenExitTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
