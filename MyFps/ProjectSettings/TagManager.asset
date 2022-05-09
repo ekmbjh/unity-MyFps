@@ -8,6 +8,7 @@ TagManager:
   - Pistol
   - ammo
   - BreakObject
+  - Mutant
   layers:
   - Default
   - TransparentFX

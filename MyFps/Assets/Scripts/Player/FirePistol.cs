@@ -55,6 +55,11 @@ public class FirePistol : MonoBehaviour
                 Debug.Log("Hit Damage 5");
                 hit.transform.GetComponent<BreakObject>().TakeDamage(attackDamage);
             }
+            else if (hit.transform.tag == "Mutant")
+            {
+                Debug.Log("Hit Damage 5");
+                hit.transform.GetComponent<Mutant>().TakeDamage(attackDamage);
+            }
         }
 
         theGun.GetComponent<Animation>().Play("PistolFireAnim");
